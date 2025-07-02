@@ -2,10 +2,10 @@ import ollama
 
 def main():
     print("=== Agentic AI Lab: Offline LLM ===")
-    user_input = input("Enter your question for the LLM:")
+    user_input = input("Enter your question for the LLM: ")
     try:
         response = ollama.chat(
-            model = "mistral:7b-q4",
+            model = "mistral:latest",
             messages=[{"role": "user", "content": user_input}],
         )
         print("\n -- LLM Response")
