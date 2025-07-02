@@ -1,4 +1,4 @@
-# agentic_ai_lab
+# Agentic AI Lab 01 and 02
 *Agentic AI Labs with Offline LLM and Firecrawl
 
 *Set up GitHub workflows to manage your lab files.
